@@ -16,9 +16,9 @@ audio_analysis/
 
 ├── data/
 
-  │   └── audio_samples/
+    │   └── audio_samples/
 
-    │       └── sample.wav
+      │       └── sample.wav
 
 ├── tests/
 
