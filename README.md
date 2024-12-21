@@ -3,6 +3,7 @@
 # Project Structure
 
 audio_analysis/
+
 ├── src/
 │   ├── __init__.py
 │   ├── rhythm_predictor.py
