@@ -5,14 +5,10 @@
 audio_analysis/
 
 ├── src/
-
-  │   ├── __init__.py
-
-  │   ├── rhythm_predictor.py
-
-  │   ├── feature_extractor.py
-
-  │   └── utils.py
+  └── __init__.py
+  └── rhythm_predictor.py
+  └── feature_extractor.py
+  └── utils.py
 
 ├── data/
 
