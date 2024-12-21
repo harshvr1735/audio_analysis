@@ -6,25 +6,25 @@ audio_analysis/
 
 ├── src/
 
-│   ├── __init__.py
+  │   ├── __init__.py
 
-│   ├── rhythm_predictor.py
+  │   ├── rhythm_predictor.py
 
-│   ├── feature_extractor.py
+  │   ├── feature_extractor.py
 
-│   └── utils.py
+  │   └── utils.py
 
 ├── data/
 
-│   └── audio_samples/
+  │   └── audio_samples/
 
-│       └── sample.wav
+    │       └── sample.wav
 
 ├── tests/
 
-│   ├── __init__.py
+  │   ├── __init__.py
 
-│   └── test_rhythm_predictor.py
+  │   └── test_rhythm_predictor.py
 
 ├── requirements.txt
 
