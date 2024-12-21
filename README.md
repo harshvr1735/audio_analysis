@@ -1,34 +1,23 @@
 # Audio Analysis and Rhythm Prediction
 
-# Project Structure
+## Project Structure
 
-audio_analysis/
-
-├── src/
-  └── __init__.py
-  └── rhythm_predictor.py
-  └── feature_extractor.py
-  └── utils.py
-
-├── data/
-
+    audio_analysis/
+    ├── src/
+    │   ├── __init__.py
+    │   ├── rhythm_predictor.py
+    │   ├── feature_extractor.py
+    │   └── utils.py
+    ├── data/
     │   └── audio_samples/
-
-      │       └── sample.wav
-
-├── tests/
-
-  │   ├── __init__.py
-
-  │   └── test_rhythm_predictor.py
-
-├── requirements.txt
-
-├── README.md
-
-├── setup.py
-
-└── report.md
+    │       └── sample.wav
+    ├── tests/
+    │   ├── __init__.py
+    │   └── test_rhythm_predictor.py
+    ├── requirements.txt
+    ├── README.md
+    ├── setup.py
+    └── report.md
 
 
 ## Overview
