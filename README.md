@@ -3,21 +3,37 @@
 # Project Structure
 
 audio_analysis/
+
 ├── src/
+
 │   ├── __init__.py
+
 │   ├── rhythm_predictor.py
+
 │   ├── feature_extractor.py
+
 │   └── utils.py
+
 ├── data/
+
 │   └── audio_samples/
+
 │       └── sample.wav
+
 ├── tests/
+
 │   ├── __init__.py
+
 │   └── test_rhythm_predictor.py
+
 ├── requirements.txt
+
 ├── README.md
+
 ├── setup.py
+
 └── report.md
+
 
 ## Overview
 This project implements a real-time audio analysis system capable of predicting rhythm patterns and tempo from audio input. It was developed as part of an internship project for Sutra Sphere LLC.
