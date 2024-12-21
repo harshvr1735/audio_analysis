@@ -1,6 +1,5 @@
 import numpy as np
 import queue
-import threading
 import time
 from .feature_extractor import FeatureExtractor
 from sklearn.ensemble import RandomForestRegressor
@@ -12,7 +11,7 @@ class RhythmPredictor:
         self.hop_length = hop_length
         self.buffer = queue.Queue()
         self.feature_extractor = FeatureExtractor(sr=sr, hop_length=hop_length)
-        self.model = RandomForestRegressor(n_estimators=100)
+        self.model = RandomForestRegressor(n_estimators=100, random_state=42)
         
     def train_model(self, inputs, labels):
         """
