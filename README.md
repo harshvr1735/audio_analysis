@@ -3,14 +3,10 @@
 # Project Structure
 
 audio_analysis/
-
 ├── src/
-│   
-├── __init__.py
-│   
-├── rhythm_predictor.py
-│   
-├── feature_extractor.py
+│   ├── __init__.py
+│   ├── rhythm_predictor.py
+│   ├── feature_extractor.py
 │   └── utils.py
 ├── data/
 │   └── audio_samples/
