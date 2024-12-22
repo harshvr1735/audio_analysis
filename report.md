@@ -7,7 +7,30 @@
 
 For this project, I created a system that can listen to music in real-time and predict its rhythm patterns. Think of it like a smart metronome that can understand the beat of any song you play. This was my first experience working with audio processing and machine learning, and I learned a lot along the way.
 
-## 2. My Approach to Analyzing Music
+## 2. Libraries and Technology Stack Used
+###Programming Language
+
+Python 3.12
+
+###Core Libraries
+
+librosa: Main library for music and audio analysis
+numpy: For numerical computations and array operations
+scikit-learn: For machine learning (Random Forest model)
+sounddevice: For real-time audio input handling
+
+###Development Tools
+
+Visual Studio Code (VSCode) as the IDE
+pytest for testing
+virtual environment (venv) for package management
+
+###Helper Libraries
+
+matplotlib: For visualizations (if needed)
+queue: For handling real-time audio buffers
+
+## 3. My Approach to Analyzing Music
 
 I broke down the music analysis into three main parts:
 
@@ -25,7 +48,7 @@ I broke down the music analysis into three main parts:
    - The system processes small chunks of music at a time (like reading a book sentence by sentence)
    - This lets it make predictions quickly without falling behind the music
 
-## 3. Challenges I Faced and How I Solved Them
+## 4. Challenges I Faced and How I Solved Them
 
 ### Challenge 1: Speed vs Accuracy
 - **Problem**: The system needed to be fast enough to keep up with the music but still accurate
@@ -44,7 +67,7 @@ I broke down the music analysis into three main parts:
 - **Problem**: Turning music measurements into accurate rhythm predictions
 - **Solution**: I used a type of machine learning called Random Forest, which is like having many simple predictors work together to make a better prediction
 
-## 4. The Prediction Model
+## 5. The Prediction Model
 
 I chose to use a Random Forest model because:
 - It's good at learning patterns from examples
@@ -52,7 +75,7 @@ I chose to use a Random Forest model because:
 - It can make predictions quickly enough for real-time use
 - It works well even with limited training data, which was perfect for my beginner project
 
-## 5. What I Learned and Future Improvements
+## 6. What I Learned and Future Improvements
 
 Through this project, I learned:
 - How to process audio in Python
@@ -64,7 +87,7 @@ Things I'd like to improve:
 - Add the ability to follow tempo changes
 - Make the predictions more accurate
 
-## 6. Conclusion
+## 7. Conclusion
 
 This project was my first step into audio processing and machine learning. While there's room for improvement, I successfully created a working system that can:
 1. Listen to music in real-time
